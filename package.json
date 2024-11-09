@@ -1,0 +1,22 @@
+{
+  "name": "healthcare-internship",
+  "version": "1.0.0",
+  "description": "Task",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --trace-warnings server/index.js",
+    "run": "node server/index.js"
+  },
+  "author": "Biswarup Ghosh",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.0"
+  }
+}
